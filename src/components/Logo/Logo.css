@@ -1,0 +1,19 @@
+.Logo {
+  background-color: white;
+  padding: 8px;
+  height: 70%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.Logo img {
+  height: 100%;
+  margin-right: 8px;
+}
+
+.Name {
+  color: #703b09;
+  font-size: 1.2rem;
+}
