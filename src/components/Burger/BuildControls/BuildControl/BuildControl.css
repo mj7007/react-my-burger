@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 5px 0;
 }
 
 .BuildControl button {
@@ -33,6 +32,13 @@
   padding: 10px;
   font-weight: bold;
   width: 80px;
+}
+
+.Count {
+  padding: 10px;
+  font-weight: bold;
+  width: 30px;
+  text-align: center;
 }
 
 .BuildControl .Less {
