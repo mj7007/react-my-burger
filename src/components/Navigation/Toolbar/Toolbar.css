@@ -6,23 +6,44 @@
   left: 0;
   background-color: #703b09;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 0 20px;
   box-sizing: border-box;
   z-index: 90;
 }
 
-.Toolbar nav {
+.DrawerToggleContainer {
   height: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .Logo {
   height: 80%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
 }
 
-@media (max-width: 499px) {
-  .DesktopOnly {
+.NavigationContainer {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.NavigationContainer nav {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+@media (max-width: 699px) {
+  .NavigationContainer nav {
     display: none;
+  }
+
+  .Logo {
+    flex: 4;
   }
 }
